@@ -1,0 +1,24 @@
+{
+  "name": "class-quiz-app",
+  "version": "1.0.0",
+  "description": "班级云小测软件",
+  "main": "main.js",
+  "scripts": {
+    "check": "node -e \"console.log('项目检查通过');\"",
+    "dev": "echo '请使用HBuilderX运行此uni-app项目'",
+    "build": "echo '请使用HBuilderX构建此uni-app项目'"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^2.0.2-4070620250821001",
+    "@dcloudio/uni-ui": "^1.5.11",
+    "@dcloudio/vue-cli-plugin-uni": "^2.0.2-4070620250821001",
+    "vue": "^2.6.14"
+  },
+  "keywords": [
+    "uni-app",
+    "quiz",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT"
+}

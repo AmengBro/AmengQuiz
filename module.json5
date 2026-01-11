@@ -1,0 +1,22 @@
+{
+  "module": {
+    "package": "com.example.cloudtw",
+    "name": "cloudtw",
+    "mainAbility": "MainAbility",
+    "deviceTypes": ["phone", "tablet"],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "cloudtw",
+      "moduleType": "entry"
+    },
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.READ_USER_STORAGE",
+        "reason": "需要读取手机文件以提供服务",
+        "usedScene": {
+          "when": "inuse"
+        }
+      }
+    ]
+  }
+}

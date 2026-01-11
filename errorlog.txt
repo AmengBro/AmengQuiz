@@ -1,0 +1,102 @@
+下面的错误是uni-app x项目运行到[android]平台出现的,你需要分析以下报错信息并修复相应的bug.请提供完整的修复方案.你不需要帮我优化代码,只需要修复bug.
+
+错误信息: 项目 云汤巍词组 开始编译
+4.76
+请注意运行模式下，因日志输出、sourcemap以及未压缩源码等原因，性能和包体积，均不及发行模式。
+正在编译中...
+​Browserslist: caniuse-lite is outdated. Please run:
+npx update-browserslist-db@latest
+Why you should do it regularly: https://github.com/browserslist/update-db#readme​
+项目 云汤巍词组 编译成功。
+注：检测到当前使用的ADB不是HBuilderX内置或自定义ADB:
+PID：9492
+进程名称：adb.exe
+路径：D:/adb/adb.exe
+可能存在adb冲突造成真机运行不刷新或不重启等情况，如果正常则忽略
+如果遇到异常情况，请检查adb冲突
+手机端调试基座版本号为4.76, 版本号相同，跳过基座更新
+正在建立手机连接...
+正在同步手机端程序文件...
+同步手机端程序文件完成
+正在启动HBuilder调试基座...
+应用【云汤巍词组】已启动
+App Launch at App.vue:4
+App Show at App.vue:9
+协议同意状态:,  [Boolean] true  at pages/register/register.vue:146
+点击注册按钮，当前状态： at pages/register/register.vue:153
+agreeTerms:,  [Boolean] true  at pages/register/register.vue:154
+username:,  undefined  at pages/register/register.vue:155
+nickname:,  zq at pages/register/register.vue:156
+password:,  888 at pages/register/register.vue:157
+confirmPassword:,  888 at pages/register/register.vue:158
+verificationCode:,  昌益小野猫喵喵喵喵喵 at pages/register/register.vue:159
+注册请求响应:,  [Object] {"data":{"message":"Table \"cG7vHkS4ng\" not found"},"statusCode":404,"header":{"Content-Ty...} at pages/register/register.vue:252
+状态码:,  [Number] 404  at pages/register/register.vue:258
+响应数据:,  [Object] {"message":"Table \"cG7vHkS4ng\" not found"}  at pages/register/register.vue:259
+注册失败原因:,  Table "cG7vHkS4ng" not found at pages/register/register.vue:325
+点击注册按钮，当前状态： at pages/register/register.vue:153
+agreeTerms:,  [Boolean] true  at pages/register/register.vue:154
+username:,  undefined  at pages/register/register.vue:155
+nickname:,  zq at pages/register/register.vue:156
+password:,  888888 at pages/register/register.vue:157
+confirmPassword:,  888888 at pages/register/register.vue:158
+verificationCode:,  昌益小野猫喵喵喵喵喵 at pages/register/register.vue:159
+注册请求响应:,  [Object] {"data":{"message":"Table \"cG7vHkS4ng\" not found"},"statusCode":404,"header":{"Content-Ty...} at pages/register/register.vue:252
+状态码:,  [Number] 404  at pages/register/register.vue:258
+响应数据:,  [Object] {"message":"Table \"cG7vHkS4ng\" not found"}  at pages/register/register.vue:259
+注册失败原因:,  Table "cG7vHkS4ng" not found at pages/register/register.vue:325
+点击注册按钮，当前状态： at pages/register/register.vue:153
+agreeTerms:,  [Boolean] true  at pages/register/register.vue:154
+username:,  undefined  at pages/register/register.vue:155
+nickname:,  zq at pages/register/register.vue:156
+password:,  888888 at pages/register/register.vue:157
+confirmPassword:,  888888 at pages/register/register.vue:158
+verificationCode:,  昌益小野猫喵喵喵喵喵 at pages/register/register.vue:159
+注册请求响应:,  [Object] {"data":{"message":"Table \"cG7vHkS4ng\" not found"},"statusCode":404,"header":{"Content-Ty...} at pages/register/register.vue:252
+状态码:,  [Number] 404  at pages/register/register.vue:258
+响应数据:,  [Object] {"message":"Table \"cG7vHkS4ng\" not found"}  at pages/register/register.vue:259
+注册失败原因:,  Table "cG7vHkS4ng" not found at pages/register/register.vue:325
+点击注册按钮，当前状态： at pages/register/register.vue:153
+agreeTerms:,  [Boolean] true  at pages/register/register.vue:154
+username:,  undefined  at pages/register/register.vue:155
+nickname:,  zq at pages/register/register.vue:156
+password:,  888888 at pages/register/register.vue:157
+confirmPassword:,  888888 at pages/register/register.vue:158
+verificationCode:,  昌益小野猫喵喵喵喵喵 at pages/register/register.vue:159
+注册请求响应:,  [Object] {"data":{"message":"Table \"cG7vHkS4ng\" not found"},"statusCode":404,"header":{"Content-Ty...} at pages/register/register.vue:252
+状态码:,  [Number] 404  at pages/register/register.vue:258
+响应数据:,  [Object] {"message":"Table \"cG7vHkS4ng\" not found"}  at pages/register/register.vue:259
+注册失败原因:,  Table "cG7vHkS4ng" not found at pages/register/register.vue:325
+登录请求响应:,  [Object] {"data":{"current_page":1,"data":[{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"...} at pages/login/login.vue:179
+状态码:,  [Number] 200  at pages/login/login.vue:185
+响应数据:,  [Object] {"current_page":1,"data":[{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"usr9eMjv...} at pages/login/login.vue:186
+查找用户时的账号:,  AmengBro at pages/login/login.vue:196
+查找用户时的密码:,  20111003 at pages/login/login.vue:197
+数据库中的用户列表:,  [Object] [{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"usr9eMjvuYYIdFafag4","created_at"...} at pages/login/login.vue:198
+用户匹配调试:,  [Object] {"用户UUID":"QZQZ0719","用户名":"AmengBro","密码":"20111003","账号匹配":true,"密码匹配":true,"总匹配结果":true}  at pages/login/login.vue:205
+登录请求响应:,  [Object] {"data":{"current_page":1,"data":[{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"...} at pages/login/login.vue:179
+状态码:,  [Number] 200  at pages/login/login.vue:185
+响应数据:,  [Object] {"current_page":1,"data":[{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"usr9eMjv...} at pages/login/login.vue:186
+查找用户时的账号:,  AmengBro at pages/login/login.vue:196
+查找用户时的密码:,  20111003 at pages/login/login.vue:197
+数据库中的用户列表:,  [Object] [{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"usr9eMjvuYYIdFafag4","created_at"...} at pages/login/login.vue:198
+用户匹配调试:,  [Object] {"用户UUID":"QZQZ0719","用户名":"AmengBro","密码":"20111003","账号匹配":true,"密码匹配":true,"总匹配结果":true}  at pages/login/login.vue:205
+登录请求响应:,  [Object] {"data":{"current_page":1,"data":[{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"...} at pages/login/login.vue:179
+状态码:,  [Number] 200  at pages/login/login.vue:185
+响应数据:,  [Object] {"current_page":1,"data":[{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"usr9eMjv...} at pages/login/login.vue:186
+查找用户时的账号:,  AmengBro at pages/login/login.vue:196
+查找用户时的密码:,  20111003 at pages/login/login.vue:197
+数据库中的用户列表:,  [Object] [{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"usr9eMjvuYYIdFafag4","created_at"...} at pages/login/login.vue:198
+用户匹配调试:,  [Object] {"用户UUID":"QZQZ0719","用户名":"AmengBro","密码":"20111003","账号匹配":true,"密码匹配":true,"总匹配结果":true}  at pages/login/login.vue:205
+登录请求响应:,  [Object] {"data":{"current_page":1,"data":[{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"...} at pages/login/login.vue:179
+状态码:,  [Number] 200  at pages/login/login.vue:185
+响应数据:,  [Object] {"current_page":1,"data":[{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"usr9eMjv...} at pages/login/login.vue:186
+查找用户时的账号:,  AmengBro at pages/login/login.vue:196
+查找用户时的密码:,  20111003 at pages/login/login.vue:197
+数据库中的用户列表:,  [Object] [{"id":2,"created_by":"usr9eMjvuYYIdFafag4","updated_by":"usr9eMjvuYYIdFafag4","created_at"...} at pages/login/login.vue:198
+用户匹配调试:,  [Object] {"用户UUID":"QZQZ0719","用户名":"AmengBro","密码":"20111003","账号匹配":true,"密码匹配":true,"总匹配结果":true}  at pages/login/login.vue:205
+App Hide at App.vue:12
+
+
+
+
